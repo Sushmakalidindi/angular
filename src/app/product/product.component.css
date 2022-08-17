@@ -1,0 +1,20 @@
+.productimgage {
+  object-fit: cover;
+  width: 60%;
+  height: 300px;
+}
+.productcard {
+  background-color: #bfbfbf;
+}
+.container{
+background-color: #d9d9d9;
+margin-top: 10px;
+justify-content: space-between;
+padding:15px;
+}
+.mat-grid-tile {
+  background: rgb(207, 200, 207);
+}
+.name{
+  padding:20px;
+}

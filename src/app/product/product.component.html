@@ -1,0 +1,23 @@
+<div class="name">
+<h1>PRODUCT</h1>
+<div class="container">
+  <mat-grid-list cols="3" rowHeight="500px" gutterSize="16px">
+    <mat-grid-tile *ngFor="let product of products">
+      <mat-card class="productcard">
+        <mat-card-header>
+          <mat-card-title>{{ product.title }}</mat-card-title>
+          <mat-card-subtitle>{{ product.category }}</mat-card-subtitle>
+        </mat-card-header>
+        <img class="productimgage" mat-card-img src="{{ product.images[0] }}" />
+        <mat-card-content>
+          <p>{{ product.description }}</p>
+        </mat-card-content>
+
+        <mat-card-actions>
+          <button mat-button>Details</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+</div>

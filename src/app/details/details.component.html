@@ -1,0 +1,36 @@
+<div class="backall">
+  <div *ngIf="product">
+    <div class="product-header">
+      <h1>{{ product.title }}</h1>
+    </div>
+    <div class="productimage">
+      <img [src]="product.images[0]" />
+    </div>
+    <div class="product-contents">
+      <div class="product-content">
+        <label class="label">Price:</label>
+        <span class="span">${{ product.price }} </span>
+      </div>
+      <div class="product-content">
+        <label class="label"> Brand:</label>
+        <span class="span">{{ product.brand }} </span>
+      </div>
+      <div class="product-content">
+        <label class="label">Description:</label>
+        <span class="span">{{ product.description }} </span>
+      </div>
+      <div class="product-content">
+        <label class="label">Discount Percentage:</label>
+        <span class="span">{{ product.discountPercentage }} %</span>
+      </div>
+      <div class="product-content">
+        <label class="label">Stock:</label>
+        <span class="span">${{ product.stock }} </span>
+      </div>
+      <div class="product-content">
+        <label class="label"> Rating:</label>
+        <span class="span">{{ product.rating }} </span>
+      </div>
+    </div>
+  </div>
+</div>

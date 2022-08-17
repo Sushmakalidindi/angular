@@ -1,0 +1,46 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  margin-top: -8px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 20px;
+  display: flex;
+}
+.bars {
+  background-color: rgb(255, 255, 255);
+}
+.sam {
+  flex: 1 1 auto;
+}
+.sample {
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.grid {
+  margin-left: 20px;
+}
+.symbol-menu {
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.favorite-symbol {
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.share {
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.product-link {
+  border: none;
+  font-size: larger;
+  margin-right: 16px;
+  cursor: pointer;
+}
